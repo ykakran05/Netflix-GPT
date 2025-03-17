@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+- prject steps :
+25 - Register TMDB API and create an app and get access tokens
+26 - Get data from TMDB now playing movies list API
+27 - create moviesSlice
+28 - Put this data into the redux store now
+29 - make browse component clean and use custom hook to fetch movies and putting those in the store
+30 - Build Browse Page
+31 - Planning for main and secondary Container
+32 - fetch data for trailer video
+33 - update store with trailer video
+34 - embedded the vimeo video and make it autoplay and mute
+35 - tailwind classes to make Main Container look awesome
