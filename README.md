@@ -82,3 +82,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 33 - update store with trailer video
 34 - embedded the vimeo video and make it autoplay and mute
 35 - tailwind classes to make Main Container look awesome
+36 - Build Secondary component
+37 - build movie list
+38 - build movie card
+39 - TMDB image cdn url
+40 - made browse page amazing with tailwing css
+41 - used custom hook usePopularMovies

@@ -10,7 +10,7 @@ const VideoBackground = ({movieId}) => {
     useMovieTrailer(movieId);
 
   return (
-    <div className='fixed inset-0 w-full h-full -z-10 overflow-hidden'>
+    <div className='absolute inset-0 -z-10 overflow-hidden'>
       <iframe 
       className='absolute top-0 left-1/2 w-[180%] h-full -translate-x-1/2 scale-x-[1.6] object-cover'
       src={"https://player.vimeo.com/video/"+trailerVideo?.key+"?autoplay=1&muted=1&loop=1&background=1?badge=0&amp;?autopause=0&amp;player_id=0&amp;app_id=58479"}
